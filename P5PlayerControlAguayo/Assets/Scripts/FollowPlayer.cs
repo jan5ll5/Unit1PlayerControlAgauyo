@@ -17,5 +17,9 @@ public class FollowPlayer : MonoBehaviour
     void LateUpdate()
     {
         transform.position = player.transform.position + offset;
+        if(Input.GetKey(KeyCode.RightArrow))
+        {
+
+        }
     }
 }
