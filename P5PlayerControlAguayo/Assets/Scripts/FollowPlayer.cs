@@ -19,7 +19,11 @@ public class FollowPlayer : MonoBehaviour
         transform.position = player.transform.position + offset;
         if(Input.GetKey(KeyCode.RightArrow))
         {
-
+            
+        }
+        if(Input.GetKey(KeyCode.Space))
+        {
+            
         }
     }
 }
